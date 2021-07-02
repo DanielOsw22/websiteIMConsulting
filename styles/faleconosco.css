@@ -1,97 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@media only screen and (max-width: 600px) {
-    .faleConosco {
-        background-color: #383434;
-        width: 100%;
-        height: 90vh;
-        padding-bottom: 2%;
-    }
-    .faleMain {
-        width: 95%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 0% 2% 2% 2%;
-    }
-    .faleLinha {
-        background-color: #F4B15D;
-        height: 50px;
-        width: 1px;
-    }
-    .faleTitle {
-        padding-top: 2%;
-        font-family: Roboto;
-        font-size: small;
-        color: #F4B15D;
-    }
-    .faleDetalhe {
-        color: white;
-        font-family: Libre Caslon Text;
-        font-weight: 400;
-        font-size: small;
-        text-align: center;
-    }
-    .faleForm {
-        width: 80%;
-        background-color: #141414;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding: 0% 0% 5% 20%;
-    }
-    .nomeForm {
-        font-family: Roboto;
-        font-size: x-small;
-        color: #F4B15D;
-    }
-    .nomeInput {
-        border: 0;
-        margin: 0;
-        background-color: transparent;
-        border-bottom: #383434 2px solid;
-        color:  #6e6b6b;
-        font-family: Roboto;
-        font-size: smaller;
-        transition: 0.5s;
-    }
-    .nomeText {
-        width: 60vw;
-    }
-    input:focus, select:focus, textarea:focus {
-        outline: none;
-        border-bottom: #F4B15D 2px solid;
-    }
-    .nomeButton {
-        border: 0;
-        margin: 2% 0 0 0;
-        padding: 2% 4% 2% 4%;
-        background-color: #F4B15D;
-        color:  #383434;
-        font-family: Roboto;
-        font-size: smaller;
-        transition: 0.5s;
-    }
-    .offices {
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        padding: 5% 0% 5% 0%;
-    }
-    .officeTitle {
-        padding: 2% 0% 2% 0%;
-        font-family: Roboto;
-        font-size: small;
-        color: white;
-    }
-    .officeDetalhe {
-        font-family: Roboto;
-        font-size: small;
-        color: rgba(255, 255, 255, 0.562);
-    }
+.faleConosco {
+    background-color: #383434;
+    width: 100%;
+    height: 101vh;
+    display: flex;
+    justify-content: center;
+}
+.faleMain {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0% 2% 0% 2%;
+}
+.faleLinha {
+    background-color: #F4B15D;
+    height: 70px;
+    width: 1px;
+}
+.faleTitle {
+    padding-top: 2%;
+    font-family: Roboto;
+    font-size: x-small;
+    color: #F4B15D;
+}
+.faleDetalhe {
+    color: white;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+.faleForm {
+    width: 70%;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5% 5% 5% 10%;
+}
+.nomeForm {
+    font-family: Roboto;
+    font-size: x-small;
+    color: #F4B15D;
+}
+.nomeInput {
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    border-bottom: #383434 2px solid;
+    color:  #6e6b6b;
+    font-family: Roboto;
+    font-size: smaller;
+    transition: 0.5s;
+}
+.nomeText {
+    width: 20vw;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-bottom: #F4B15D 2px solid;
+}
+.nomeButton {
+    border: 0;
+    margin: 2% 0 0 0;
+    padding: 2% 4% 2% 4%;
+    background-color: #F4B15D;
+    color:  #383434;
+    font-family: Roboto;
+    font-size: smaller;
+    transition: 0.5s;
+}
+.offices {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0% 5% 0%;
+}
+.officeTitle {
+    padding: 2% 0% 2% 0%;
+    font-family: Roboto;
+    font-size: x-small;
+    color: white;
+}
+.officeDetalhe {
+    font-family: Roboto;
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.562);
 }

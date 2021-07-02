@@ -18,37 +18,33 @@
 }
 .quemLinha{
     background-color: #F4B15D;
-    height: 70px;
+    height: 40px;
     width: 1px;
 }
 .quemTitle {
-    padding-top: 1%;
     font-family: Roboto;
-    font-size: x-small;
+    font-size: small;
     color: #F4B15D;
 }
 .quemSubTitle {
-    width: 50%;
+    width: 90%;
     text-align: center;
     font-family: Libre Caslon Text;
     font-weight: 400;
-    font-size: xx-large;
-    line-height: 150%;
+    font-size: x-large;
 }
 .quemDetalhe {
     width: 90%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 .quemFranc {
-    width: 25%;
     padding: 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding-bottom: 2%;
-    line-height: 150%;
 }
 .nomeFranc {
     text-align: left;
@@ -60,6 +56,6 @@
     color: rgba(255, 255, 255, 0.514);
 }
 .linkedFranc {
-    font-size: x-small;
+    font-size: small;
     font-family: Roboto;
 }
