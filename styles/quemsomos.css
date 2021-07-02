@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .quemSomos {
+        width: 100%;
+        background-color: #202020;
+        margin: 0;
+    }
+    .quemMain {
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 4%;
+    }
+    .quemLinha{
+        background-color: #F4B15D;
+        height: 40px;
+        width: 1px;
+    }
+    .quemTitle {
+        font-family: Roboto;
+        font-size: small;
+        color: #F4B15D;
+    }
+    .quemSubTitle {
+        width: 90%;
+        text-align: center;
+        font-family: Libre Caslon Text;
+        font-weight: 400;
+        font-size: x-large;
+    }
+    .quemDetalhe {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .quemFranc {
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 2%;
+    }
+    .nomeFranc {
+        text-align: left;
+        font-size: x-large;
+    }
+    .detalheFranc {
+        font-family: Roboto;
+        font-size: small;
+        color: rgba(255, 255, 255, 0.514);
+    }
+    .linkedFranc {
+        font-size: small;
+        font-family: Roboto;
+    }
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .sobreGrupo {
+        width: 100%;
+        height: 40vh;
+        background-color: #141414;
+    }
+    .sobreMain {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0% 2% 2% 2%;
+    }
+    .sobreEsq {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 10%;
+        padding-top:30%;
+    }
+    .sobreLinha{
+        background-color: #F4B15D;
+        height: 50px;
+        width: 1px;
+    }
+    .sobreTitle{
+        position: relative;
+        z-index: 9;
+        color: #F4B15D;
+        font-size: small;
+        font-family: Roboto;
+        text-overflow: clip;
+        white-space: nowrap; 
+    }
+    .sobreVideo {
+        width: 100%;
+    }
+    .sobreDir {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 10%;
+        padding-top:30%
+    }
+    .sobreLinha2{
+        background-color: #F4B15D;
+        height: 50px;
+        width: 1px;
+    }
+}
