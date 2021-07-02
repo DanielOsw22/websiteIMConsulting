@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/sobre.css">
     <link rel="stylesheet" href="./styles/tamanho.css">
     <link rel="stylesheet" href="./styles/faleconosco.css">
+    <link rel="icon" type="image/png" href="./assets/images/IMGroup_logoTranspWhite-01-03.png"/>
     <title>IMGroup</title>
 </head>
 
@@ -82,7 +83,8 @@
             <div class="tamTitle">TAMANHO DO GRUPO</div>
             <div class="tamDetalhe">
                 <p>Nos últimos 5 anos, administramos mais de 00 milhões de dólares em operações.</p>
-                <p>Apoiamos a criação e a execução de 00 empresas americanas, E somos proprietários, sócios ou investidores de diversos segmentos.</p>
+                <p>Apoiamos a criação e a execução de 00 empresas americanas, E somos proprietários, sócios ou
+                    investidores de diversos segmentos.</p>
             </div>
             <div class="tamImgs">
                 <img class="imgATM" src="./assets/images/ATMClub_logoTranspWhite-01.png">
@@ -96,20 +98,47 @@
         <div class="faleMain">
             <span class="faleLinha"></span>
             <div class="faleTitle">FALE CONOSCO</div>
-            <div class="faleDetalhe"><p>Nossos clientes são atendidos através das nossas empresas.</p><p>Mas saiba que a sua mensagem será vem vinda!</p></div>
-            <form class="vsf"><p>peido</p></form>
+            <div class="faleDetalhe">
+                <p>Nossos clientes são atendidos através das nossas empresas.</p>
+                <p>Mas saiba que a sua mensagem será vem vinda!</p>
+            </div>
+            <form class="faleForm" action="https://hydro-canoe-53838.herokuapp.com/email" method="post">
+                <div class="nomeForm">
+                    <p>SEU NOME</p>
+                    <input class="nomeInput" name="name" type="text" id="name" placeholder="Nome">
+                </div>
+                <div class="nomeForm">
+                    <p>SEU EMAIL</p>
+                    <input class="nomeInput" name="email" type="text" id="email" placeholder="Email">
+                </div>
+                <div class="nomeForm">
+                    <p>SUA MENSAGEM</p>
+                    <textarea class="nomeInput nomeText" name="message" type="text" id="message"></textarea>
+                </div>
+                <input class="nomeButton" type="submit" name="Submit" id="Submit" value="Enviar →">
+            </form>
             <div class="offices">
                 <div class="miami">
                     <div class="officeTitle">MIAMI OFFICE</div>
-                    <div class="officeDetalhe"><p>4243 Woodland Terrace</p><p>Miami, FL 95814</p><p>916 753 2654</p></div>
+                    <div class="officeDetalhe">
+                        <p>4243 Woodland Terrace</p>
+                        <p>Miami, FL 95814</p>
+                        <p>916 753 2654</p>
+                    </div>
                 </div>
                 <div class="ny">
                     <div class="officeTitle">NEW YORK OFFICE</div>
-                    <div class="officeDetalhe"><p>885 Oakwood Avenue</p><p>New York, NY 10013</p><p>212 660 0744</p></div>
+                    <div class="officeDetalhe">
+                        <p>885 Oakwood Avenue</p>
+                        <p>New York, NY 10013</p>
+                        <p>212 660 0744</p>
+                    </div>
                 </div>
-                <div class="other">
-                    <div class="officeTitle">OTHER CONTACT</div>
-                    <div class="officeDetalhe"><p>contato@imgroup.com</p></div>
+            </div>
+            <div class="other">
+                <div class="officeTitle">OTHER CONTACT</div>
+                <div class="officeDetalhe">
+                    <p>contato@imgroup.com</p>
                 </div>
             </div>
         </div>

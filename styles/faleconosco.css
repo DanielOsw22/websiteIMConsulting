@@ -34,18 +34,54 @@
         font-size: small;
         text-align: center;
     }
-    .vsf {
-        width: 100%;
-        height: 10%;
+    .faleForm {
+        width: 80%;
         background-color: #141414;
-    }
-    .offices {
-        width: 75%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding-left: 25%;
+        padding: 0% 0% 5% 20%;
+    }
+    .nomeForm {
+        font-family: Roboto;
+        font-size: x-small;
+        color: #F4B15D;
+    }
+    .nomeInput {
+        border: 0;
+        margin: 0;
+        background-color: transparent;
+        border-bottom: #383434 2px solid;
+        color:  #6e6b6b;
+        font-family: Roboto;
+        font-size: smaller;
+        transition: 0.5s;
+    }
+    .nomeText {
+        width: 60vw;
+    }
+    input:focus, select:focus, textarea:focus {
+        outline: none;
+        border-bottom: #F4B15D 2px solid;
+    }
+    .nomeButton {
+        border: 0;
+        margin: 2% 0 0 0;
+        padding: 2% 4% 2% 4%;
+        background-color: #F4B15D;
+        color:  #383434;
+        font-family: Roboto;
+        font-size: smaller;
+        transition: 0.5s;
+    }
+    .offices {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5% 0% 5% 0%;
     }
     .officeTitle {
         padding: 2% 0% 2% 0%;
