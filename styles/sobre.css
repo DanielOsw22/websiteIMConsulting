@@ -3,7 +3,7 @@
 
 .sobreGrupo {
     width: 100%;
-    height: fit-content;
+    height: 90vh;
     background-color: #141414;
 }
 .sobreMain {
@@ -55,7 +55,7 @@ iframe {
     justify-content: flex-start;
     align-items: flex-start;
     width: 10%;
-    padding-top:52%
+    padding-top:55%
 }
 .sobreLinha2{
     background-color: #F4B15D;
