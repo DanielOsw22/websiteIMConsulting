@@ -3,7 +3,7 @@
 
 .sobreGrupo {
     width: 100%;
-    height: 80vh;
+    height: fit-content;
     background-color: #141414;
 }
 .sobreMain {

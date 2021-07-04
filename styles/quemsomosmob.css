@@ -2,6 +2,7 @@
 
 .quemSomos {
     width: 100%;
+    height: fit-content;
     background-color: #202020;
     margin: 0;
 }

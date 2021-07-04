@@ -3,6 +3,7 @@
 body {
     width: 100%;
     margin: 0;
+    height: 90vh;
     overflow-x: hidden;
 }
 .landing {
@@ -57,7 +58,7 @@ body {
 .landFale {
     width: 70%;
     height: 50px;
-    padding: 0 25% 5% 0;
+    padding: 0 25% 0% 0;
     font-size: xx-small;
     display: flex;
     justify-content: flex-end;
@@ -76,13 +77,13 @@ span {
 .fotoFranc {
     position: absolute;
     bottom: 0%;
-    left: -22%;
+    left: -25%;
     height: 100%;
     width: 50%;
     background-image: url("../assets/images/Francisco_transp.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left bottom;
+    background-position: right bottom;
     opacity: 0.5;
 }
 
