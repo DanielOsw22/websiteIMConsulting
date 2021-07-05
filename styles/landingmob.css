@@ -5,6 +5,10 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+.wrap {
+    overflow-x: hidden;
+    position: absolute;
+}
 .landing {
     position: relative;
     margin: 0;
