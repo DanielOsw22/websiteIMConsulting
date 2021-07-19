@@ -64,3 +64,12 @@
     font-size: x-small;
     font-family: Roboto;
 }
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover {
+    color: #F4B15D;
+    text-decoration: underline;
+}
